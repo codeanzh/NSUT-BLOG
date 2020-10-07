@@ -111,7 +111,7 @@ a:visited{
 }
 #blog-back{
 	display: none;
-	width: 40px;
+	width: 5.5%;
 	background-image: url('../src/competitive-programmer.jpg');
 }
 #blog-back:hover{

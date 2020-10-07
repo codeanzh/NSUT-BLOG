@@ -130,7 +130,7 @@ function blogBack()
 		blog2 = document.getElementById('blog-2');
 		blog3 = document.getElementById('blog-3');
 		next = document.getElementById('blog-next');
-		next.width = '12%';
+		next.style.width = '12%';
 		next.style.backgroundImage = blog3.style.backgroundImage;
 		blog3.style.backgroundImage = blog2.style.backgroundImage;
 		blog3.innerHTML = blog2.innerHTML;
