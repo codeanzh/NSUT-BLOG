@@ -65,6 +65,9 @@ body{
 .bio{
 	font-family: sans-serif;
 }
+p.bio{
+	font-size: 100%;
+}
 a:link{
 	color: white;
 	transition: 0.2s;
