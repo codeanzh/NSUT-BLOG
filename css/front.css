@@ -1,0 +1,282 @@
+body{
+	background-color: white;
+}
+.profile{
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+}
+#menu{
+	vertical-align: top;
+	display: inline-block;
+	font-size: 200%;
+	transition: transform 0.2s;
+	background-color: #e6f2ae;
+}
+#menu:hover{
+	transform: scale(1.2);
+}
+.content{
+	display: none;
+}
+.content-clicked{
+	display: inline-block;
+	width: 100%;
+	transition: 0.5s;
+}
+#name{
+	font-family: serif;
+	font-size: 120%;
+	display: none;
+	margin-left: 1%;
+}
+#setting{
+	display: none;
+	font-size: 170%;
+	transition: 0.2s;
+	float: right;
+}
+#setting:hover{
+	transform: scale(1.2);
+}
+#dp{
+	display: inline-block;
+	background-image: url("../src/night-fountain-pink.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 20%;
+	border: 2px solid;
+	border-color: red;
+}
+#bio{
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+	height: 250px;
+	border-radius: 20%;
+	border: 2px solid;
+	border-color: red;
+	padding-left: 2%;
+	background-color: #24085c;
+	color: white;
+}
+.bio{
+	font-family: sans-serif;
+}
+a:link{
+	color: white;
+	transition: 0.2s;
+	text-decoration: none;
+}
+a:hover{
+	font-size: large;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+#interests{
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+	height: 250px;
+	border-radius: 20%;
+	border: 2px solid;
+	border-color: red;
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #24085c;
+	color: white;
+}
+.interests{
+	display: inline-block;
+	font-family: sans-serif;
+	text-align: center;
+	width: 90%;
+}
+#blogs{
+	display: inline-block;
+	vertical-align: top;
+	width: 690px;
+	height: 250px;
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #e6f2ae;
+}
+#blog-back{
+	display: none;
+	width: 40px;
+	background-image: url('../src/competitive-programmer.jpg');
+}
+#blog-back:hover{
+	transform: scale(1);
+	opacity: 0.6;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.blog{
+	margin-top: 2%;
+	display: inline-block;
+	width: 28%;
+	height: 221px;
+	transition: 0.2s;
+	vertical-align: text-top;
+}
+.blog:hover{
+	transform: scale(1.15);
+	font-weight: bold;
+}
+#blog-1{
+	background-image: url("../src/competitive-programmer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#blog-2{
+	background-image: url("../src/deep-learning.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#blog-3{
+	background-image: url("../src/brain.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#blog-next{
+	width: 12%;
+	background-image: url("../src/web-developer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#blog-next:hover{
+	transform: scale(1);
+	opacity: 0.6;
+}
+hr.prof-line{
+	background-color: red;
+	height: 3px;
+}
+.top{
+	display: inline-block;
+	width: 97%;
+}
+.top-info{
+	display: inline-block;
+	font-family: serif;
+	transition: transform .2s;
+	font-size: 150%;
+	text-align: center;
+	width: 18%;
+}
+.top-info:hover{
+	transform: scale(1.2);
+}
+.top-info-current{
+	display: inline-block;
+	font-family: serif;
+	font-weight: bold;
+	transition: transform .2s;
+	font-size: 180%;
+	text-align: center;
+	width: 19%;
+}
+#cl-under{
+	display: inline-block;
+	width: 75%;
+	height: 10px;
+	background-color: #f2838c;
+}
+#dev-under{
+	display: inline-block;
+	width: 75%;
+	height: 10px;
+	background-color: #eff283;
+}
+#cp-under{
+	display: inline-block;
+	width: 75%;
+	height: 10px;
+	background-color: #87d4fa;
+}
+#alu-under{
+	display: inline-block;
+	width: 75%;
+	height: 10px;
+	background-color: #9de887;
+}
+#rec-under{
+	display: inline-block;
+	width: 75%;
+	height: 10px;
+	background-color: #9b6be8;
+}
+.post{
+	display: inline-block;
+	background-color: #f2838c;
+	width: 100%;
+	text-align: center;
+}
+.display-post{
+	display: inline-block;
+	width: 90%;
+	margin-top: 2%;
+	text-align: center;
+}
+.image-post{
+	display: inline-block;
+	width: 60%;
+	margin-right: 2%;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.content-post{
+	display: inline-block;
+	width: 35%;
+	margin-left: 2%;
+	vertical-align: top;
+}
+#img1{
+	background-image: url("../src/competitive-programmer.jpg");
+	height: 700px;
+}
+#img2{
+	background-image: url("../src/brain.jpg");
+	height: 700px;
+}
+#img3{
+	background-image: url("../src/deep-learning.jpeg");
+	height: 550px;
+}
+#img4{
+	background-image: url("../src/web-developer.jpg");
+	height: 500px;
+}
+#img5{
+	background-image: url("../src/instagram-hashtags.jpg");
+	height: 700px;
+}
+#img6{
+	background-image: url("../src/app.jpg");
+	height: 450px;
+}
+p{
+	font-family: sans;
+	font-size: 150%;
+}
+@media only screen and (max-width: 1100px) {
+  	#blogs{
+  		width: 100%;
+  	}
+  	.image-post{
+  		width: 90%;
+  	}
+  	.content-post{
+  		width: 90%;
+  	}
+  	.display-post{
+  		text-align: left;
+  	}
+}
